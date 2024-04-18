@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: ;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background: green;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .box{
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    body{
+        background: aqua;
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .box{
+        width: 70px;
+        height: 70px;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body{
+        background: red;
+    }
+
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body{
+        background: black;
+    }
+
+
+    .box{
+        width: 180px;
+        height: 180px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {
+    body{
+        background: yellow;
+    }
+
+
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: pink ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
